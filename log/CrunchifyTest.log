@@ -1,0 +1,252 @@
+2016-05-26 21:44:39,047 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 6640 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:44:39,047 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:44:39,188 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e3181aa: startup date [Thu May 26 21:44:39 CEST 2016]; root of context hierarchy
+2016-05-26 21:44:40,728 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:44:41,657 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:44:41,673 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:44:41,673 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:44:41,860 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:44:41,868 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 2679 ms
+2016-05-26 21:44:42,354 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:44:42,369 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:44:42,369 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:44:42,369 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:44:42,369 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:44:42,776 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e3181aa: startup date [Thu May 26 21:44:39 CEST 2016]; root of context hierarchy
+2016-05-26 21:44:42,901 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:44:42,905 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:44:42,905 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:44:42,905 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:44:42,967 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:44:42,967 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:44:43,046 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:44:43,374 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:44:43,452 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:44:43,467 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:44:43,514 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:44:43,561 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:44:43,592 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 5.03 seconds (JVM running for 6.453)
+2016-05-26 21:46:08,495 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 7764 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:46:08,497 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:46:08,681 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@600b90df: startup date [Thu May 26 21:46:08 CEST 2016]; root of context hierarchy
+2016-05-26 21:46:10,404 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:46:12,182 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:46:12,211 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:46:12,214 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:46:12,522 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:46:12,523 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 3847 ms
+2016-05-26 21:46:13,372 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:46:13,394 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:46:13,395 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:46:13,396 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:46:13,397 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:46:13,934 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@600b90df: startup date [Thu May 26 21:46:08 CEST 2016]; root of context hierarchy
+2016-05-26 21:46:14,121 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:46:14,124 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:46:14,127 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:46:14,128 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:46:14,195 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:46:14,195 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:46:14,281 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:46:14,807 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:46:14,895 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:46:14,913 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:46:14,949 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:46:15,020 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:46:15,028 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 7.304 seconds (JVM running for 9.2)
+2016-05-26 21:47:47,628 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 1792 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:47:47,632 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:47:47,746 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74c79fa2: startup date [Thu May 26 21:47:47 CEST 2016]; root of context hierarchy
+2016-05-26 21:47:49,439 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:47:50,769 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:47:50,811 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:47:50,815 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:47:51,132 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:47:51,133 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 3393 ms
+2016-05-26 21:47:51,911 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:47:51,920 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:47:51,921 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:47:51,922 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:47:51,923 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:47:52,514 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74c79fa2: startup date [Thu May 26 21:47:47 CEST 2016]; root of context hierarchy
+2016-05-26 21:47:52,690 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:47:52,692 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:47:52,695 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:47:52,696 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:47:52,759 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:47:52,759 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:47:52,838 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:47:53,239 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:47:53,312 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:47:53,327 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:47:53,352 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:47:53,398 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:47:53,409 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 6.443 seconds (JVM running for 8.445)
+2016-05-26 21:50:41,190 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 8832 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:50:41,194 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:50:41,477 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ebaa6cb: startup date [Thu May 26 21:50:41 CEST 2016]; root of context hierarchy
+2016-05-26 21:50:43,071 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:50:44,208 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:50:44,228 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:50:44,228 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:50:44,666 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:50:44,666 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 3329 ms
+2016-05-26 21:50:45,838 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:50:45,853 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:50:45,853 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:50:45,853 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:50:45,853 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:50:46,415 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ebaa6cb: startup date [Thu May 26 21:50:41 CEST 2016]; root of context hierarchy
+2016-05-26 21:50:46,556 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:50:46,571 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:50:46,571 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:50:46,571 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:50:46,650 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:50:46,665 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:50:46,946 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:50:47,578 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:50:47,734 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:50:47,750 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:50:47,797 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:50:48,250 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:50:48,250 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 7.921 seconds (JVM running for 9.849)
+2016-05-26 21:51:32,420 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 5952 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:51:32,422 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:51:32,575 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22295ec4: startup date [Thu May 26 21:51:32 CEST 2016]; root of context hierarchy
+2016-05-26 21:51:34,855 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:51:37,404 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:51:37,430 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:51:37,433 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:51:37,850 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:51:37,871 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 5314 ms
+2016-05-26 21:51:39,046 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:51:39,056 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:51:39,057 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:51:39,058 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:51:39,058 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:51:39,641 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22295ec4: startup date [Thu May 26 21:51:32 CEST 2016]; root of context hierarchy
+2016-05-26 21:51:39,930 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:51:39,933 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:51:39,957 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:51:39,958 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:51:40,078 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:51:40,082 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:51:40,256 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:51:40,930 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:51:41,056 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:51:41,096 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:51:41,157 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:51:41,215 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:51:41,233 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 9.77 seconds (JVM running for 12.101)
+2016-05-26 21:52:08 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 7568 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:52:08 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:52:08 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74c79fa2: startup date [Thu May 26 21:52:08 CEST 2016]; root of context hierarchy
+2016-05-26 21:52:11 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:52:13 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:52:13 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:52:13 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:52:13 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:52:13 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 4387 ms
+2016-05-26 21:52:14 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:52:14 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:52:14 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:52:14 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:52:14 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:52:14 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74c79fa2: startup date [Thu May 26 21:52:08 CEST 2016]; root of context hierarchy
+2016-05-26 21:52:14 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:52:14 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:52:14 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:52:14 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:52:15 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:52:15 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:52:15 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:52:15 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:52:15 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:52:15 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:52:15 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:52:16 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:52:16 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 7.886 seconds (JVM running for 10.076)
+2016-05-26 21:52:59 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 8336 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:52:59 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:52:59 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bfcafd: startup date [Thu May 26 21:52:59 CEST 2016]; root of context hierarchy
+2016-05-26 21:53:01 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:53:02 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:53:02 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:53:02 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:53:03 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:53:03 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 3747 ms
+2016-05-26 21:53:04 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:53:04 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:53:04 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:53:04 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:53:04 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:53:04 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25bfcafd: startup date [Thu May 26 21:52:59 CEST 2016]; root of context hierarchy
+2016-05-26 21:53:05 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:53:05 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:53:05 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:53:05 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:53:05 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:53:05 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:53:05 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:53:05 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:53:06 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:53:06 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:53:06 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:53:06 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:53:06 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 7.439 seconds (JVM running for 9.538)
+2016-05-26 21:53:55 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 8788 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 21:53:55 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 21:53:55 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77258e59: startup date [Thu May 26 21:53:55 CEST 2016]; root of context hierarchy
+2016-05-26 21:53:57 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 21:53:59 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 21:53:59 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 21:53:59 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 21:53:59 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 21:53:59 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 3765 ms
+2016-05-26 21:54:00 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 21:54:00 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 21:54:00 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 21:54:00 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 21:54:00 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 21:54:01 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77258e59: startup date [Thu May 26 21:53:55 CEST 2016]; root of context hierarchy
+2016-05-26 21:54:02 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 21:54:02 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 21:54:02 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 21:54:02 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 21:54:02 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:54:02 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:54:02 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 21:54:02 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 21:54:02 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:54:02 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 21:54:02 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 21:54:02 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 21:54:02 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 8.024 seconds (JVM running for 9.643)
+2016-05-26 22:01:36 [main] INFO  AppBootTemplateApplication:48 - Starting AppBootTemplateApplication on DESKTOP-FSNHJJ4 with PID 4048 (F:\Projects\2016sps\App_boot_template\target\classes started by ttinana in F:\Projects\2016sps\App_boot_template)
+2016-05-26 22:01:36 [main] INFO  AppBootTemplateApplication:666 - No active profile set, falling back to default profiles: default
+2016-05-26 22:01:36 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext:578 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71529963: startup date [Thu May 26 22:01:36 CEST 2016]; root of context hierarchy
+2016-05-26 22:01:38 [main] INFO  DefaultListableBeanFactory:839 - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-26 22:01:40 [main] INFO  TomcatEmbeddedServletContainer:81 - Tomcat initialized with port(s): 8080 (http)
+2016-05-26 22:01:40 [main] INFO  StandardService:180 - Starting service Tomcat
+2016-05-26 22:01:40 [main] INFO  StandardEngine:180 - Starting Servlet Engine: Apache Tomcat/8.0.30
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  [/]:180 - Initializing Spring embedded WebApplicationContext
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  ContextLoader:272 - Root WebApplicationContext: initialization completed in 4262 ms
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  ServletRegistrationBean:189 - Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-26 22:01:41 [localhost-startStop-1] INFO  FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-26 22:01:42 [main] INFO  RequestMappingHandlerAdapter:532 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71529963: startup date [Thu May 26 22:01:36 CEST 2016]; root of context hierarchy
+2016-05-26 22:01:42 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/hello]}" onto public java.lang.String com.example.controllers.HelloController.hello()
+2016-05-26 22:01:42 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/mail]}" onto public java.lang.String com.example.controllers.MailController.sendMail()
+2016-05-26 22:01:42 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-26 22:01:42 [main] INFO  RequestMappingHandlerMapping:527 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-26 22:01:42 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 22:01:42 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 22:01:42 [main] INFO  SimpleUrlHandlerMapping:341 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-26 22:01:43 [main] INFO  AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2016-05-26 22:01:43 [main] INFO  Http11NioProtocol:180 - Initializing ProtocolHandler ["http-nio-8080"]
+2016-05-26 22:01:43 [main] INFO  Http11NioProtocol:180 - Starting ProtocolHandler ["http-nio-8080"]
+2016-05-26 22:01:43 [main] INFO  NioSelectorPool:180 - Using a shared selector for servlet write/read
+2016-05-26 22:01:43 [main] INFO  TomcatEmbeddedServletContainer:162 - Tomcat started on port(s): 8080 (http)
+2016-05-26 22:01:43 [main] INFO  AppBootTemplateApplication:57 - Started AppBootTemplateApplication in 7.334 seconds (JVM running for 8.823)
